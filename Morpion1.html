@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<style>
+body {
+	background-image: url("image/background.png");
+	 
+}
+#morpion{
+	font-size: 100px;
+	text-align: center;
+	color:red;
+}
+
+#canvas {
+margin-top: 20px;
+margin-left:500px;
+margin-right:500px;
+margin-bottom: 150px;
+}
+#joueur1{
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 5%;
+	color: #13d2ef;
+}
+#joueur2{
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 75%;
+	color: #13d2ef;
+}
+#joueur{
+	font-size: 30px;
+	text-align: center;
+}
+#nomDePartie{
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 47%;
+	color: red;
+}
+</style>
+<div >
+	<h1 id="morpion"> Jeu de Morpion </h1>
+	
+	<h2 id="joueur1"> Joueur1</h2>
+
+	<h3 id="joueur2"> Joueur2</h3>
+
+	<br><br>
+
+	
+<h4 id="nomDePartie"> Nom de la Partie</h4>
+<h5 id="joueur"></h5>
+</div>
+<div id = "canvas">
+	</form>
+	<canvas id="canvasMorpion" width="500" height="500" style="background-color:black";></canvas>
+</div>
+<div id = "gain">
+	
+</div>
+
+<div id = "rejouer">
+
+</div>
+
+<div id = "visible">
+	
+</div>
+<script src="Morpion1.js"></script>
+</body>
+</html>

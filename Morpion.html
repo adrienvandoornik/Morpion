@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<style>
+body {
+	background-image: url("image/background.png");
+	 
+}
+div {
+	width:100%;
+	max-width: 100%;
+	min-width: 700px;
+}
+#morpion{
+	font-size: 100px;
+	text-align: center;
+	color:red;
+}
+#img{
+	height: 500px;
+	width: 90%;
+}
+
+#joueur1{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 5%;
+}
+#joueur2{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 20%;
+}
+#partie{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 25%;
+}
+#start{
+	margin-top: 10px;
+	font-size: 25px;
+	margin-left: 45%;
+}
+</style>
+	<h1 id="morpion"> Jeu de Morpion </h1>
+
+	<label id="joueur1" for="player1">Entrez nom du joueur 1 : </label>
+		<input type="text" id="player1">
+	 
+
+	<label id="joueur2" for="player2">Entrez nom du joueur 2 : </label>
+		<input type="text" id="player2"><br><br> 
+	
+
+	<img id="img" src="image/morpion.png" alt="Plusieurs images de morpion" ><br><br>
+
+
+	
+	<label id="partie" for="nomDePartie">Entrez un nom de partie: </label>
+		<input type="text" id="nomDePartie"><br><br>
+
+	<button id ="start" onclick ="commencer()">commencer</button>
+
+
+<script src="Morpion.js"></script>
+</body>
+</html>
